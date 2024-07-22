@@ -1,0 +1,36 @@
+.main{
+    background-color: white;
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
+}
+#face{
+    background-color: yellow;
+    width: 150px;
+    height: 150px;
+    position: absolute;top: 25px; left: 25px;
+    border-radius: 50%;
+
+}
+#eyel{
+    background-color: black;
+    width: 30px;
+    height: 30px;
+    position: absolute; top: 30px;left: 30px;
+    border-radius: 50%;
+    
+}
+#eyer{
+    background-color: black;
+    width: 30px;
+    height: 30px;
+    position: absolute; top: 30px;left: 85px;
+    border-radius: 50%;
+}
+#mouth{
+    background-color: red;
+    width: 80px;
+    height: 30px;
+    border-radius: 0 0 20px 20px;
+    position: absolute;top: 95px;left: 35px;
+}

@@ -1,0 +1,25 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+h1{
+    color: #1b74e4;
+}
+.search button{
+    background-color: black;
+    color: white;
+
+}
+.login button{
+   background-color:aqua;
+}
+input[type="text"]{
+    color: red;
+}
+button:hover ,search button{
+    background-color: rgb(196, 64, 64);
+    color: white;
+}
+button:active ,search button{
+    background-color: pink;
+    color: brown;
+}

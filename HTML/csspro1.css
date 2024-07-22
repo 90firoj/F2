@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+   .roboto-regular {
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+ 
+}
+
+.main-box{
+    background: url("csspro1.jpg");  
+    height: 100vh;
+}
+.btn{
+    font-weight: 600px;
+    position: absolute;
+    left: 16px;
+    line-height: 60px;
+
+}
+.sidebar_menu{
+    position: fixed;
+    /* left: -250px; */
+    width: 200px;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.1);
+   box-shadow: 0px 0px 6px rgba(255, 255, 255, 0.5);
+}
+
+.sidebar_menu .logo{
+    position: absolute;
+    width: 100%;
+    line-height: 60px;
+    box-shadow: 0px 0px 3px rgba(255, 255, 255, 0.5);
+}
+.sidebar_menu .logo a{
+    position: absolute;
+    left: 50px;
+    color: white;
+    text-decoration: none;
+}
+.sidebar_menu .menu{
+    position: absolute;
+    left: 30px;
+    color: white;
+    text-decoration: none;
+    line-height: 60px;
+}
+.sidebar_menu .menu a{
+    position: absolute;
+    color: white;
+    
+}

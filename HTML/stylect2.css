@@ -1,0 +1,57 @@
+/*body{
+    display: grid;
+    grid-template-rows: auto auto auto auto auto;
+    grid-template-columns: auto auto auto auto auto;
+}*/
+h1{
+    text-align: center;
+    
+}
+.container{
+    width: 1000px;
+    height: 500px;
+    background-color: aqua;
+    border: 3px solid black;
+    border-radius: 10px;
+    margin: 0 auto;
+    display: grid;
+    /* grid-template-rows: 100px 100px 100px 100px;
+    grid-template-columns: auto auto auto auto; */
+    grid-template-rows: repeat(2,1fr);
+    grid-template-columns: repeat(4,1fr);
+    /* row-gap:10px;
+    column-gap: 10px; */
+    /* grid-gap: 10px 10px; */
+    /* justify-items: end; */
+    /* align-items: end; */
+    
+}
+.item{
+    /*width: 100px;
+    height: 50px;*/
+    background-color: bisque;
+    border: 3px solid green;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 30px;
+}
+#one{
+    /* grid-column-start: 1;
+    grid-column-end: 3; */
+    grid-column: 1/3;
+    /* grid-row-start: 1;
+    grid-row-end: 3; */
+    grid-row: 1/3;
+    /* justify-self: end; */
+}
+#two{
+    /* grid-column-start: 3;
+    grid-column-end: 5; */
+    grid-column: 3/5;
+}
+#five{
+    /* grid-column-start: 1;
+    grid-column-end: 5; */
+    /* grid-column: 1/5; */
+    grid-column: 1/span 4; /*span 4--->how many box i need after starting line*/
+}

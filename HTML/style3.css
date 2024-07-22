@@ -1,0 +1,39 @@
+*{
+    text-align: center;
+}
+#mainTopic{
+    color: blue;
+}
+h1,h3,h5{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body p{
+    color: white;
+    background-color: cornflowerblue;
+    height: 100px;
+    width: 100px;
+    border: 10px dotted black;
+    border-left:10px solid yellow;
+    padding: 10px;
+    margin-left: 20px;
+    margin-top: 20px;
+
+}
+div button{
+    background-color: purple;
+    color: azure;
+}
+div button:hover{
+    background-color:  yellow;
+    color: blue;
+}
+body p:nth-of-type(2n+1){
+    color: yellow;
+}
+h1::first-letter{
+    color: red;
+}
+#yes:checked + label{
+    color: darkgreen;
+}

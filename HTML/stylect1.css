@@ -1,0 +1,29 @@
+#maindiv{
+    background-color: rgb(130, 182, 228);
+    width: 400px;
+    height: 150px;
+    display: flex;
+    margin: 10% auto;
+    border: 1px solid black;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#div1{
+    background-color: aqua;
+    width: 50px;
+    height: 100px;
+    border: 1px solid black;
+}
+#div2{
+    background-color: beige;
+    width: 50px;
+    height: 100px;
+    border: 1px solid black;
+}
+#div3{
+    background-color: blueviolet;
+    width: 50px;
+    height: 100px;
+    border: 1px solid black;
+}
