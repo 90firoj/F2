@@ -172,3 +172,8 @@
 // let name="Apnacollege";
 // console.log(name.slice(4,name.length))
 // console.log(name.slice(4,name.length).replace("l","t"))
+
+
+//add new feature
+//test git command
+console.log("Hello");
